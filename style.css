@@ -9,8 +9,8 @@
 }
 
 .cabecalho {
-    background-color: rgb(9, 219, 191);
-    color: rgb(105, 105, 3);
+    background-color: #12ddaa;
+    color: #fff;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -18,35 +18,52 @@
 }
 
 .menu a {
-    color: rgb(226, 226, 226);
-    text-decoration: nome;
+    color: #fff;
+    text-decoration: none;
     margin-left: 15px;
 }
 
 .menu a:hover {
-    color: rgb(128, 126, 126);
+    color: red;
+}
+
+.conteudo {
+    display: flex;
 }
 
 .navegacao {
-    background-color: rgb(6, 124, 118);
-    color: rgba(4, 45, 82, 0.699);
-    display:inline-block;
+    background-color: #ad5566;
+    display: inline-block;
     width: 30%;
-    padding: 10px; 
+    padding: 10px;
 }
 
 .navegacao ul {
-    background-color: aqua;
-    color:black
+    list-style: none;
+    padding: 0;
+}
+
+.navegacao li {
+    margin-bottom: 10px;
 }
 
 .secao {
-    background-color: rgb(5, 88, 77);
-    color: rgb(0, 255, 255);
+    background-color: #32a97c;
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
+}
+
+.secao p {
+    margin-bottom: 10px;
+}
+
+.formulario {
+    margin-bottom: 10px;
 }
 
 .rodape {
-    background-color: rgb(89, 112, 112);
+    background-color: #00ddff;
     height: 70px;
     padding: 0 20px;
     display: flex;
@@ -56,7 +73,7 @@
 
 .redes {
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 
 .redes img {
@@ -64,10 +81,14 @@
     width: 20px;
     height: 20px;
 }
-
 .redes a {
     display: flex;
     align-items: center;
     gap: 5px;
     text-decoration: none;
+}
+
+.redes a:hover {
+    color: #fff;
+    opacity: 0.7;
 }
